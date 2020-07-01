@@ -13,20 +13,24 @@ Extract using API, scrape and tables. Transform by cleaning, filtering and aggre
 * Requests
 * Json
 * Beautiful Soup
-* Census API
+* Census API (ensus 0.8.14)
+* PostgreSQL 
 
 ## Data Sources
 •	https://www.census.gov/data/developers.html 
-* Data: TBD
-* Output: API to json
+* Data: Census acs5 demographics data by state - Economic status, gender, race and age.
+* Output: API to json using Census wrapper (census 0.8.14) to pandas dataframe to SQL
 
 •	https://www.census.gov/data/tables/time-series/demo/voting-and-registration/p20-580.html
 * Data: Registered voters/reported voters by state, by gender, race, age
-* Output: Excel tables
+* Output: Excel .xlsx to pandas dataframe to .csv to SQL 
 
 •	https://elections.mit.edu
 * Data: Election performance index by state using indicators such as provisional ballots cast, voting wait time, registrations rejected
 * Output: Data scrape into SQL
+
+## Presentation
+[ETL Voting Presentation](/https://github.com/janejanejam/database-dragons/blob/master/ETL_%20VOTERS%20AND%20VOTING%20CONDITIONS.pdf)
 
 
 
