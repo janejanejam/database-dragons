@@ -30,7 +30,7 @@ Extract using API, scrape and tables. Transform by cleaning, filtering and aggre
 * Output: Data scrape into SQL
 
 ## Presentation
-[ETL Voting Presentation](/ETL_ VOTERS AND VOTING CONDITIONS.pdf)
+[ETL Voting Presentation](/blob/master/ETL_ VOTERS AND VOTING CONDITIONS.pdf)
 
 
 
